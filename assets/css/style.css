@@ -1,0 +1,42 @@
+body {
+	background: #2d862d;
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-family: 'Bungee', cursive;
+
+}
+
+p {
+	padding: 7px;
+}
+
+
+.gameHeader {
+	text-align: center;
+}
+
+.row {
+	background: red;
+	
+
+}
+
+.instructionsSection {
+	float: left;
+	width: 50%;
+	
+}
+
+.gameSection {
+	float: right;
+	
+}
+img {
+	width:50px;
+	height:50px;
+}
+

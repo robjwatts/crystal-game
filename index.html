@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<title>Crystal Collector</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="container">
+
+
+<div class="gameHeader">
+<h1 class="text-md-center">Crystal Game</h1>
+</div>
+
+<div class="instructionsSection">
+	<div class="row">
+		<div class="col-med-6">
+			<p>Here are your instructions, fam: </p></br>
+			<p>You will be given a random number at the start of the game.</p></br>
+			<p>There are 4 crystals. When you click on a crystal, you add a specfic amount of points to the total score.</p></br>
+			<p>To win the game, have your total score match the random number. If your score goes above the random number, you lose.</p></br>
+			<p>You will not know the value of each crystal until you click on it.</p></br>
+			<p>Every time a new game starts, the value of the crystals will change. Good luck!</p></br>
+		</div>	
+	</div>
+</div>
+
+
+<div class="gameSection">
+	<div class="row">
+		<div class="col-med-6">
+			<div class="crystalCount">
+				<p>Target Number: <span id="numberToGuess"></span></p> 
+			</div>
+
+			<div class="playerCounter">
+				<p>Your Crystals: <span id="crystalSumz"></span></p> 
+			</div>
+
+			</br>
+
+			<div class="Win-Count">
+				<p>Wins: <span id="winCount"></span></p>
+			</div>
+			
+			</br>
+
+			<div class="Lose-Count">
+				<p>Losses: <span id="loseCount"></span></p>
+			</div>
+			
+			</br>
+
+			<div class="crystals">
+
+
+
+
+		</div>	
+	</div>
+</div>	
+<div class="row">
+<div class="col-med-12">
+<div class="buttonArea">
+
+<button id="bearBtn"><img src="assets/images/bear.png"></button>
+<button id="caneBtn"><img src="assets/images/candy-cane.png"></button>
+<button id="santaBtn"><img src="assets/images/santa-claus-1.png"></button>
+<button id="starBtn"><img src="assets/images/star-of-david.png"></button>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
