@@ -74,6 +74,9 @@ var loseCounter=0;
 		alert("You Win! You have the holiday spirit, I suppose.");
 		crystalSum=0;
 		$("#crystalSumz").html(crystalSum);
+		Math.floor(Math.random() * (120 - 19) + 19);
+        $("#numberToGuess").html(numberToMatch);
+        startGame();
 		
 	};
 
@@ -83,6 +86,9 @@ var loseCounter=0;
 			alert("You're a regular Scrooge. You lose!");
 			crystalSum=0;
 			$("#crystalSumz").html(crystalSum);
+			Math.floor(Math.random() * (120 - 19) + 19);
+        $("#numberToGuess").html(numberToMatch);
+        startGame();
 			
 
 		};
